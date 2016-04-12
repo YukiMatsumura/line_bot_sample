@@ -1,1 +1,1 @@
-web: appname
+web: line-bot-yuki312
