@@ -1,1 +1,1 @@
-web: line_bot_sample
+web: main
