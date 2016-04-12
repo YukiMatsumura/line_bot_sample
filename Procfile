@@ -1,1 +1,1 @@
-web: line-bot-yuki312
+web: line_bot_sample
