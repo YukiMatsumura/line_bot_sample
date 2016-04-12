@@ -13,7 +13,8 @@ func handler(w http.ResponseWriter, r *http.Request) {
 func main() {
 	port := os.Getenv("PORT")
 	if port == "" {
-		return "", fmt.Errorf("$PORT not set")
+		_ = fmt.Errorf("$PORT not set")
+		return
 	}
 	fmt.Println("PORT:" + port)
 
