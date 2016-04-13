@@ -81,7 +81,7 @@ func callbackHandler(w http.ResponseWriter, r *http.Request) {
 		content.ContentType = result.Content.ContentType
 		content.ToType = result.Content.ToType
 		content.Text = text
-		log.Print(content.Text)
+		log.Print("SEND MESSAGE : " + content.Text)
 		request(apiURI, "POST", []string{from}, *content)
 	}
 }
